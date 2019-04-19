@@ -1,0 +1,155 @@
+.container {
+   display: grid;
+   grid-template-rows: 0.5fr 0.2fr 1.5fr 0.2fr 1fr;
+   grid-template-columns: 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr 1fr;
+   grid-template-areas: "head1 . . . head2 head2 head2"
+                        ". . . . . . ."
+                        "card1 . card2 . card3 . sidebar"
+                        ". . . . . . sidebar"
+                        "main main main main main . sidebar";
+   min-height: 100vh;
+}
+
+.container .menu1{
+  grid-area: head1;
+  background-color: hotpink;
+}
+
+.container .menu2{
+  grid-area: head2;
+  background-color: yellow;
+}
+
+.container .card1{
+  grid-area: card1;
+  background-color: lightblue;
+}
+
+.container .card2{
+  grid-area: card2;
+  background-color: lightblue;
+}
+
+.container .card3{
+  grid-area: card3;
+  background-color: lightblue;
+}
+
+.container .main{
+  grid-area: main;
+  background-color: lightgreen;
+}
+
+.container .aside{
+  grid-area: sidebar;
+  background-color: darkgray;
+}
+
+@media (max-width: 1024px) {
+  .container{
+    /* background-color: hotpink; */
+    display:grid;
+    grid-template-rows:0.2fr 0.05fr 0.1fr 0.05fr 0.3fr 0.05fr 0.2fr 0.05fr 0.2fr;
+    grid-template-columns: 0.3fr 0.2fr 0.05fr 0.05fr 0.45fr;
+    grid-template-areas: "head1 . . head2 head2"
+                         ". . . . ."
+                         "sidebar sidebar sidebar sidebar sidebar"
+                         ". . . . ."
+                         "card1 card1 . card2 card2"
+                         ". . . . ."
+                         "card3 card3 card3 card3 card3"
+                         ". . . . ."
+                         "main main main main main";
+    /* min-height: 100vh; */
+  }
+
+  .container .menu1{
+    grid-area: head1;
+    background-color: hotpink;
+  }
+
+  .container .menu2{
+    grid-area: head2;
+    background-color: yellow;
+  }
+
+  .container .card1{
+    grid-area: card1;
+    background-color: lightblue;
+  }
+
+  .container .card2{
+    grid-area: card2;
+    background-color: lightblue;
+  }
+
+  .container .card3{
+    grid-area: card3;
+    background-color: lightblue;
+  }
+
+  .container .main{
+    grid-area: main;
+    background-color: lightgreen;
+  }
+
+  .container .aside{
+    grid-area: sidebar;
+    background-color: darkgray;
+  }
+}
+   /* tablet lay (min-width: 768px) and out her.e */
+@media (max-width: 767px){
+  .container{
+    display: grid;
+    grid-template-rows: 0.2fr 0.05fr 0.1fr 0.05fr 0.4fr 0.05fr 0.4fr 0.05fr 0.4fr 0.05fr 0.4fr 0.05fr 0.4fr;
+    grid-template-columns: 0.3fr 0.7fr;
+    grid-template-areas: "head1 ."
+                         ". ."
+                         "head2 head2"
+                         ". ."
+                         "card1 card1"
+                         ". ."
+                         "card2 card2"
+                         ". ."
+                         "card3 card3"
+                         ". ."
+                         "main main"
+                         ". ."
+                         "sidebar sidebar"
+  }
+  .container .menu1{
+    grid-area: head1;
+    background-color: hotpink;
+  }
+
+  .container .menu2{
+    grid-area: head2;
+    background-color: yellow;
+  }
+
+  .container .card1{
+    grid-area: card1;
+    background-color: lightblue;
+  }
+
+  .container .card2{
+    grid-area: card2;
+    background-color: lightblue;
+  }
+
+  .container .card3{
+    grid-area: card3;
+    background-color: lightblue;
+  }
+
+  .container .main{
+    grid-area: main;
+    background-color: lightgreen;
+  }
+
+  .container .aside{
+    grid-area: sidebar;
+    background-color: darkgray;
+  }
+}
