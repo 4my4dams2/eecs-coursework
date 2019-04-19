@@ -1,0 +1,309 @@
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+header{
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+}
+
+div {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    height:40px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #4F628E;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#icon{
+  padding-left: 0.8em;
+}
+
+.nav a{
+  color:#F65E21;
+}
+
+.nav{
+    /* border:1px solid #ccc;
+    border-width:1px 0; */
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    float: left;
+}
+
+#first_navigation{
+    margin-left: 2em;
+}
+
+.nav a{
+    display:block;
+    padding:5px;
+}
+
+.nav p{
+    padding:5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2em;
+}
+
+body{
+  background-image: url(parchment.jpg);
+}
+
+body+h2{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2+p{
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+  color: #803400;
+}
+
+.bibliography{
+  text-align: center;
+}
+
+.bibliography+p{
+  font-size: 1.2em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.author img{
+  display: block;
+  margin: 0 auto;
+}
+
+.author_page_list{
+  text-align: center;
+}
+
+ol li{
+  font-family: 'Lato', sans-serif;
+  color: #803400;
+  font-size: 1.2em;
+  margin-left: 26em;
+}
+
+.homepage_title{
+  font-family: 'Charm', cursive;
+  font-size: 6em;
+}
+
+.homepage_body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #C7031A;
+  line-height: 1.7em;
+}
+
+.homepage_subtitle{
+  font-family: 'Dancing Script', sans-serif;
+}
+
+.homepage_showcase{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  grid-template-areas:
+      "pic1 pic2 pic3"
+      "pic4 pic5 pic6"
+      "pic7 pic8 pic9";
+}
+
+.homepage_subtitle #1{
+  grid-area: pic1
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.homepage_subtitle #2{
+  grid-area: pic2
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.homepage_subtitle #3{
+  grid-area: pic3
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.homepage_subtitle #4{
+  grid-area: pic4
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.homepage_subtitle #5{
+  grid-area: pic5
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.homepage_subtitle #6{
+  grid-area: pic6
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.homepage_subtitle #7{
+  grid-area: pic7
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.homepage_subtitle #8{
+  grid-area: pic8
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.homepage_showcase img{
+  height: 13em;
+  width: 13em;
+}
+
+.homepage_showcase a{
+  font-family: 'Charmonman', cursive;
+  font-weight: bold;
+}
+
+#image2{
+  margin-left: 1em;
+}
+
+#image4{
+  margin-left: 2.4em
+}
+
+#image5{
+  margin-left: 3.9em;
+}
+
+#image6{
+  margin-left: 2.7em;
+}
+
+#image7{
+  margin:0.4em;
+}
+#image8{
+  margin-left: 0.6em
+}
+
+.fa-baby{
+  color: hotpink;
+}
+
+.fa-bookmark{
+  color: #FF7400;
+}
+
+.fa-user-graduate{
+  color: #2F5D6A;
+}
+
+.fa-book-dead{
+  color:#8C3B65;
+}
+
+.fa-school{
+  color: #CF3E37;
+}
+
+.fa-pencil-alt{
+  color:#AEA800;
+}
+
+.children_page_title{
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+}
+
+.children_page_subtitle{
+  font-family: 'Satisfy', cursive;
+  font-size: 2em;
+}
+
+.children_page_content a{
+  font-family: 'Pacifico', cursive;
+  font-size: 1.3em;
+}
+
+.fa-piggy-bank{
+  color: #B6278B;
+}
+
+.fa-carrot{
+  color: #FF850D;
+}
+
+.fa-pagelines{
+  color: #23A700;
+}
+
+.fa-hat-wizard{
+  color: #C70A00;
+}
+
+.fa-shoe-prints{
+  color: black;
+}
+
+.fa-optin-monster{
+  color: #8D4414;
+}
+
+.story_page_header{
+  font-family: 'Charm', cursive;
+  font-size: 2.5em;
+  color: #005430
+}
+
+.story_text h2{
+  float: right;
+  margin-right: 3em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.story_text p{
+  margin-left: 10em;
+  margin-right: 10em;
+  font-size: 1.3em;
+  line-height: 2em;
+  color: #009958
+}
+
+.story_text img{
+  display: block;
+  margin: 0 auto;
+}
+
+.story_text .caption{
+  font-size: 1em;
+  text-align: center;
+  color: #03576F;
+}
